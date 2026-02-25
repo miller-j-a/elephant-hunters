@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Shook Electrical</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container nav-container">
+    <div class="logo">Shook Electrical</div>
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="products.html">Products</a>
+      <a href="solutions.html">Solutions</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </div>
+</header>
+
+<section class="services">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form onsubmit="validateForm(event)">
+      <div id="error" class="error"></div>
+
+      <div class="form-group">
+        <input type="text" id="name" placeholder="Your Name">
+      </div>
+
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Your Email">
+      </div>
+
+      <div class="form-group">
+        <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+      </div>
+
+      <button class="btn">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
